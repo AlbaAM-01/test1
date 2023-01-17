@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1>What will be the ouput of the following JavaScript code?</h1>
+    <div>
+
+    </div>
+    <form>
+        <input type="checkbox" id="options">
+        <ol id="1">10</ol>
+        <ol id="2">50</ol>
+        <ol id="3">5</ol>
+        <ol id="4">ERROR</ol>
+        </input>
+        <input type="button" id="check">Check answer</input>
+    </form>
+    <script>
+        var ol=document.getElementById("1");
+        var ol=document.getElementById("2");
+        var ol=document.getElementById("3");
+        var ol=document.getElementById("4");
+        if(ol[1].onclick){
+            document.write("erro");
+        }else if(ol[2]){
+            document.write("correcto");
+        }else if(ol[3]){
+            document.write("erro");
+        }else if(ol[4]){
+            document.write("erro");
+        }
+    </script>
+</body>
+
+</html>
